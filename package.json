@@ -1,0 +1,16 @@
+{
+  "name": "expanse-rpg-dm-kit",
+  "version": "1.0.0",
+  "description": "a dungeon master's toolkit for adminstering the expanse rpg tabletop game",
+  "main": "./app/index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "api": "node ./api/index.js"
+  },
+  "author": "caleb williams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
